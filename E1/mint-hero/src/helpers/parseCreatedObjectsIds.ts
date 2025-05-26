@@ -1,5 +1,4 @@
-import { SuiObjectChange, SuiObjectChangeCreated } from "@mysten/sui/client";
-import { ENV } from "../env";
+import { SuiObjectChange } from "@mysten/sui/client";
 
 interface Args {
   objectChanges: SuiObjectChange[];
